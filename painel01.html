@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tela de solicitação de senha</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       body {
+        background-color: #0a4b7e;
+       }
+       .btn {
+       font-size: 3rem;
+       width: 100%;
+       
+       text-transform: uppercase;
+       }
+       .btn-balcao {
+        background-color: #e3e5e4;
+        color: #636268;
+        width: 100px;
+       }
+       .btn-senha {
+        background-color:#fff;
+        color:#000;
+       }
+       .row {
+        padding-bottom: 5px;
+       }
+       .marquee {
+        color:#fff;
+        font-size:4rem;
+       }
+       .primeira-linha .btn-group .btn {
+        font-size:1rem;
+        color:#fff;
+       }
+       .botao-cima {
+        align-items: flex-end;
+        display: flex;
+       }
+       .primeira-linha .col-8 .btn
+       {
+       color: #fff;
+
+     }
+       
+    </style>
+ </head>
+ <body>
+   <div class="container">
+
+    <div class="row primeira-linha">
+        <div class="col-8">
+          <button type="button" class="btn">ATENDE FÁCIL</button>
+        </div>  
+        <div class="col-4 botao-cima">
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-botao-cima">Balcão</button>
+              <button type="button" class="btn btn-botao-cima">Número</button>
+          </div>
+        </div>
+        
+      </div>  
+
+    <div class="row">
+      <div class="col-8">
+        <button type="button" class="btn btn-danger">Atendimento Geral</button>
+      </div>  
+      <div class="col-4">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-balcao">A</button>
+            <button type="button" class="btn btn-senha">12</button>
+        </div>
+      </div>
+      
+    </div>  
+
+    <div class="row">
+        <div class="col-8">
+          <button type="button" class="btn btn-success">Trocas e devoluções</button>
+        </div>  
+        <div class="col-4">
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-balcao">B</button>
+              <button type="button" class="btn btn-senha">42</button>
+          </div>
+        </div>   
+    </div>  
+
+    <div class="row">
+        <div class="col-8">
+          <button type="button" class="btn btn-primary">Serviços e financiamento</button>
+        </div>  
+        <div class="col-4">
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-balcao">C</button>
+              <button type="button" class="btn btn-senha">25</button>
+          </div>
+        </div>   
+    </div>  
+
+    <div class="row">
+        <div class="col-8">
+          <button type="button" class="btn btn-warning">Apoio técnico</button>
+        </div>  
+        <div class="col-4">
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-balcao">D</button>
+              <button type="button" class="btn btn-senha">68</button>
+          </div>
+        </div>   
+    </div>  
+
+   </div>
+   <marquee class="marquee">Nosso telefone de contato é 55 4848 9999</marquee>
+   <script src="js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
